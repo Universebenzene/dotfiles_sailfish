@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Terminal
+Exec=env LANG=en_US.UTF-8 fingerterm
+Icon=icon-l-terminal

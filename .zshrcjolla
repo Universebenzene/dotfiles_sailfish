@@ -81,6 +81,4 @@ source ~/.oh-my-zsh/lib/history.zsh
 source ~/.oh-my-zsh/lib/key-bindings.zsh
 
 #=============PROMPTS===============#
-autoload -U colors && colors
-PROMPT="[%n@%m %c]%{$fg_bold[cyan]%}$ %{$reset_color%}"
-#PROMPT="[%n@%m %c]%{$fg_bold[red]%}# %{$reset_color%}"
+source ~/dotfiles_sailfish/allconfjolla/bira_benzenejolla.zsh-theme

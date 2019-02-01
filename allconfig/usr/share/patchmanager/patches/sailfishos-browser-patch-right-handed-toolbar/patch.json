@@ -1,0 +1,10 @@
+{
+    "name": "Right-handed toolbar 2",
+    "icon": "main.png",
+    "description": "Puts all toolbar icons to the right hand side of the toolbar.",
+    "category": "browser",
+    "infos": {
+        "maintainer": "Markkyboy"
+    }
+}
+

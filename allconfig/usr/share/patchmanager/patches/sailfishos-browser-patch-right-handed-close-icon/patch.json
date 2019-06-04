@@ -1,0 +1,9 @@
+{
+    "name": "Right-handed tabs",
+    "description": "Moves the close button to the right hand side on tabs in sailfish-browser.",
+    "category": "browser",
+    "infos": {
+        "maintainer": "Markkyboy"
+    }
+}
+

@@ -1,0 +1,24 @@
+--- /usr/share/sailfish-browser/pages/components/TabItem.qml	2017-03-31 00:28:05.535589764 +0100
++++ /usr/share/sailfish-browser/pages/components/TabItem.qml	2017-03-31 00:21:55.747408866 +0100
+@@ -70,7 +70,7 @@
+             id: close
+ 
+             anchors {
+-                left: parent.left
++                right: parent.right
+                 bottom: parent.bottom
+             }
+             highlighted: down || activeTab
+@@ -94,9 +94,9 @@
+             id: titleLabel
+ 
+             anchors {
+-                left: close.right
+-                right: parent.right
+-                rightMargin: Theme.paddingMedium
++                right: close.left
++                left: parent.left
++                leftMargin: Theme.paddingMedium
+                 verticalCenter: close.verticalCenter
+             }
+ 
